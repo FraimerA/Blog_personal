@@ -1,0 +1,106 @@
+
+body{
+    background: #edf2f2f3;
+    font-family: 'calibri';
+}
+
+.imagen{
+    float: right;
+    padding: 10px;
+    margin: 10px;
+}
+
+p{
+    font-size: 23px;
+    text-align: justify;
+}
+
+.iconos{
+    height: 50px;
+    width: 50px;
+    float: right;
+}
+
+hr{
+    width: 50%;
+    height: 1px;
+    text-align: center;
+    background: #444;
+    border: solid;
+}
+
+header{
+    width: 50%;
+    clear: both;
+    content: '';
+    display: table;
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+.contenido{
+
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.navegacion{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navegacion > nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav{
+    float: left;
+}
+
+ul{
+    margin-block-end: 0px;
+}
+
+ul li{
+    position: static;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 2px 0;
+    float: left;
+    position: relative;
+    justify-content: left;
+}
+
+nav ul > li:not(:first-child){
+    margin-left: 75px;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+
+nav ul li a::before{
+    display: block;
+    content: '';
+    width: 0%;
+    background: #46cbe9ed;
+    height: 4px;
+    top: 0; 
+    position: absolute;
+    transition: width 0.7s;
+}
+
+nav ul li a:hover::before{
+    width: 100%;
+}

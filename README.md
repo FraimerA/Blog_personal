@@ -1,0 +1,1 @@
+Esta es la tarea #1 de programación web la cual consiste en un Blog personal donde teniamos que incluir una foto nuestra, el nombre, el apellido, mi t
